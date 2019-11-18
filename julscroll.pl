@@ -267,6 +267,6 @@ mx--------T` __/-------------------_/))--------------||\`-,/  `\||--
 END_MESSAGE
 
 map {
-    print $_,"\n";
+    print STDERR $_,"\n";
     usleep(60000);
 } split(/\n/, $msg);
