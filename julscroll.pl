@@ -184,6 +184,8 @@ VV--   \         __/ )|
 
 END_MESSAGE
 
+sleep(2);
+
 map {
     print STDERR $_,"\n";
     usleep(60000);
